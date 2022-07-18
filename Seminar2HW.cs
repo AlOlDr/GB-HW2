@@ -4,11 +4,11 @@
 // 782 -> 8
 // 918 -> 1
 
-// Console.WriteLine("Введите трехзначное число:");
-// int number = Convert.ToInt32(Console.ReadLine());
-// int digit1 = number / 10;
-// int digit2 = digit1 % 10;
-// Console.WriteLine($"{digit2} вторая цифра числа");
+Console.WriteLine("Введите трехзначное число:");
+int number = Convert.ToInt32(Console.ReadLine());
+int digit1 = number / 10;
+int digit2 = digit1 % 10;
+Console.WriteLine($"{digit2} вторая цифра числа");
 
 
 
@@ -19,20 +19,20 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-// Console.WriteLine("Введите число:");
-// int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число:");
+int number = Convert.ToInt32(Console.ReadLine());
 
-// while (number > 999){
-//     number /= 10;
+while (number > 999){
+    number /= 10;
 
-// }
-// if (number > 99 && number <= 999)
-// {
-//     Console.WriteLine($"Третья цифра числа {number % 10}");
-// }
-// else{
-//     Console.WriteLine("Третьей цифры нет");
-// }
+}
+if (number > 99 && number <= 999)
+{
+    Console.WriteLine($"Третья цифра числа {number % 10}");
+}
+else{
+    Console.WriteLine("Третьей цифры нет");
+}
 
 
 
@@ -46,40 +46,40 @@
 // 0 - такого дня недели нет
 // 10 - такого дня недели нет
 
-// Console.WriteLine("Введите цифру, соответствующую дню недели: ");
-// int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите цифру, соответствующую дню недели: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
-// if (number == 1)
-// {
-//     Console.WriteLine("нет");
-// }
-// else if (number == 2)
-// {
-//     Console.WriteLine("нет");
-// }
-// else if (number == 3)
-// {
-//     Console.WriteLine("нет");
-// }
-// else if (number == 4)
-// {
-//     Console.WriteLine("нет");
-// }
-// else if (number == 5)
-// {
-//     Console.WriteLine("нет");
-// }
-// else if (number == 6)
-// {
-//     Console.WriteLine("да");
-// }
-// else if (number == 7)
-// {
-//     Console.WriteLine("да");
-// }
-// else {
-//     Console.WriteLine("Такого дня недели нет");
-// }
+if (number == 1)
+{
+    Console.WriteLine("нет");
+}
+else if (number == 2)
+{
+    Console.WriteLine("нет");
+}
+else if (number == 3)
+{
+    Console.WriteLine("нет");
+}
+else if (number == 4)
+{
+    Console.WriteLine("нет");
+}
+else if (number == 5)
+{
+    Console.WriteLine("нет");
+}
+else if (number == 6)
+{
+    Console.WriteLine("да");
+}
+else if (number == 7)
+{
+    Console.WriteLine("да");
+}
+else {
+    Console.WriteLine("Такого дня недели нет");
+}
 
 
 
